@@ -1,0 +1,28 @@
+# Keep consistent line endings in repo
+* text=auto eol=lf
+
+# Unity YAML-ish text assets (better diffs/merges)
+*.unity     text eol=lf
+*.prefab    text eol=lf
+*.mat       text eol=lf
+*.asset     text eol=lf
+*.anim      text eol=lf
+*.controller text eol=lf
+
+# Code / configs
+*.cs        text eol=lf
+*.json      text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+*.md        text eol=lf
+
+# Common binary types
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.psd binary
+*.fbx binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
